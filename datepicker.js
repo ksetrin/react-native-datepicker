@@ -14,7 +14,7 @@ import {
   Keyboard
 } from 'react-native';
 import Style from './style';
-import Moment from 'moment';
+import Moment from 'moment/min/moment-with-locales.js';
 
 const FORMATS = {
   'date': 'YYYY-MM-DD',
